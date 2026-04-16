@@ -1,0 +1,18 @@
+{
+  "frameworks": {
+    "Flask":     ["werkzeug", "jinja2", "flask"],
+    "Django":    ["csrfmiddlewaretoken", "django"],
+    "Laravel":   ["laravel_session", "illuminate"],
+    "Express":   ["x-powered-by: express"],
+    "Rails":     ["x-runtime", "_rails_session"],
+    "WordPress": ["wp-content", "wp-json"],
+    "PHP":       ["x-powered-by: php", ".php"]
+  },
+  "wafs": {
+    "Cloudflare":  ["cloudflare", "cf-ray", "__cfduid"],
+    "ModSecurity": ["mod_security", "modsecurity"],
+    "Akamai":      ["akamai", "ak_bmsc"],
+    "Sucuri":      ["sucuri", "x-sucuri-id"],
+    "Imperva":     ["incapsula", "visid_incap"]
+  }
+}
